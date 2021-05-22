@@ -1,0 +1,13 @@
+name=input('enter name:')
+age=int(input('enter age:'))
+if age>=18 :
+    print('hi',name)
+    print('eligible for vote')
+else :
+    print('no',name)
+    print('not eligible for vote')
+'''Expected output
+   enter name:santhoshi
+   enter age:18
+   hi
+   eligible for vote
